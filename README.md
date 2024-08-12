@@ -1,4 +1,4 @@
-# chatbotapp
+# GEMINI based ChatBot App
 
 A new Flutter project.
 
