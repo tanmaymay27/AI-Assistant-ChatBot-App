@@ -1,9 +1,9 @@
-import 'package:chatbotapp/onboardpage.dart';
+import 'package:chatbotapp/pages/onboardpage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chatbotapp/themeNotifier.dart';
-import 'package:chatbotapp/themes.dart';
+import 'package:chatbotapp/themes_model/themeNotifier.dart';
+import 'package:chatbotapp/themes_model/themes.dart';
 
 void main() async {
   await dotenv.load(fileName: ".env");

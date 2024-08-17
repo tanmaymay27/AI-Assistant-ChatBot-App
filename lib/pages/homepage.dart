@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:chatbotapp/message.dart';
+import 'package:chatbotapp/message_model/message.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chatbotapp/themeNotifier.dart';
+import 'package:chatbotapp/themes_model/themeNotifier.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class MyHomePage extends ConsumerStatefulWidget {

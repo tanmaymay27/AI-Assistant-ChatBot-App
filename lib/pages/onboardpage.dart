@@ -1,5 +1,5 @@
+import 'package:chatbotapp/pages/homepage.dart';
 import 'package:flutter/material.dart';
-import 'package:chatbotapp/homepage.dart';
 
 class Onboardpage extends StatelessWidget {
   const Onboardpage({Key? key}) : super(key: key);
